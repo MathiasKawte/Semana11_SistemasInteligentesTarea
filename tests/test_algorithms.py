@@ -39,4 +39,4 @@ def test_alpha_beta_ordered_tree_prunes_branches():
     result = alpha_beta(ordered_tree_for_pruning())
 
     assert result.value == 8
-    assert result.branches_pruned > 0  m
+    assert result.branches_pruned > 0  
